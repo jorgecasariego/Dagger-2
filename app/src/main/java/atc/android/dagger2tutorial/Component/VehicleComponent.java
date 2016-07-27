@@ -1,4 +1,4 @@
-package atc.android.dagger2tutorial.Interface;
+package atc.android.dagger2tutorial.Component;
 
 import javax.inject.Singleton;
 
