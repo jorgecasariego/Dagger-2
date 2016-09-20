@@ -15,6 +15,9 @@ public class Vehicle {
     /**
      * We can use the @Inject annotation to request dependencies in the constructor, fields, or methods.
      * In this case, I'm keeping the injection in the constructor.
+     *
+     * Con Inject marcamos los lugares donde queremos inyectar el objeto. En este caso queremos
+     * inyectar el objeto Motor en el constructor de Vehiculo
      * @param motor
      */
     @Inject

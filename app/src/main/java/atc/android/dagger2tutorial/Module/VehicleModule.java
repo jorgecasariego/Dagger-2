@@ -29,6 +29,7 @@ import dagger.Provides;
 @Module
 public class VehicleModule {
 
+    // Provides utilizamos en los metodos que retornan los objetos que queremos inyectar
     @Provides @Singleton
     Motor provideMotor(){
         return new Motor();
